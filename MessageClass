@@ -1,0 +1,14 @@
+public class MessageClass
+{
+    private readonly string _testMessage;
+
+    public MessageClass(string testMessage)
+    {
+        _testMessage = testMessage;
+    }
+
+    public string GetMessage()
+    {
+        return _testMessage.ToUpper();
+    }
+}
